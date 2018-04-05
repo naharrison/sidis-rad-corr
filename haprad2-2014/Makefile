@@ -12,7 +12,7 @@ OBJTEST  := rcdat_test.o fhaprad_test.o ihaprad.o haprad_utils.o          \
 
 
 'CERNLIBS  := -lpdflib804 -lmathlib -lphtools -lpacklib -lkernlib -lpawlib'
-CERNLIBS  :=  -L/home/naharrison/sidis-rad-corr/cernlib/x86_64_rhel7/2005/lib -lpdflib804 -lmathlib -lphtools -lpacklib -lkernlib -lpawlib
+CERNLIBS  :=  -L/home/naharrison/cernlib-repo/cernlib/x86_64_rhel7/2005/lib -lpdflib804 -lmathlib -lphtools -lpacklib -lkernlib -lpawlib
 
 LIBS      := $(CERNLIBS)
 

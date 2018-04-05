@@ -6,7 +6,7 @@ Radiative correction code for semi-inclusive DIS
 * ...
 
 ### Instructions
-* In haprad2-2014/Makefile, make sure CERNLIBS points to cernlib/x86_64_rhel7/2005/lib
+* In haprad2-2014/Makefile, make sure CERNLIBS points to cernlib/x86_64_rhel7/2005/lib (see https://github.com/naharrison/cernlib-repo)
 * To compile and run, do:
 ```
 cd haprad2-2014
